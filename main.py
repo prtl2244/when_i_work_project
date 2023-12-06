@@ -30,7 +30,7 @@ subfolder_path = os.path.join(script_dir, subfolder)
 # Create the subfolder if it doesn't exist
 os.makedirs(subfolder_path, exist_ok=True)
 # Save the DataFrame to a CSV file in the subfolder
-csv_path = os.path.join(subfolder_path, 'final_csv.csv')
+csv_path = os.path.join(subfolder_path, 'output.csv')
 final_csv.to_csv(csv_path)
 
 print(final_csv)
